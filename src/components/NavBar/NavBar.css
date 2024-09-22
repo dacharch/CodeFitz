@@ -17,5 +17,6 @@
      list-style: none;
      display: inline;
      margin-left: 3.5rem;
+     cursor: pointer;
 }
 
