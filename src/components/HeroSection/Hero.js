@@ -7,9 +7,9 @@ const Hero = () => {
            <h1>
              We bring Customer for your brands<br/> and Products using Artifical <br/>Intelligence
            </h1>
-           <a className="contact-btn">
+           <button className="contact-btn">
               Contact
-           </a>
+           </button>
        </div>       
   )
 }

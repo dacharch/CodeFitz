@@ -1,12 +1,36 @@
 .hero-container{
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-top: 5%;
+  align-items: center;
+  
 }
 
-.contact-btn{
-    background-color: white;
-    color:black ;
-    
-    border-radius: 5px;
+h1{
+   margin-bottom: .5rem;
 }
+.contact-btn{
+  align-items: center;
+  background-color: #fee6e3;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  
+  justify-content: center;
+  line-height: 24px;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  
+    
+}
+
 
