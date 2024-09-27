@@ -1,3 +1,5 @@
+import Courses from './components/Courses/Courses';
+import Footer from './components/Footer/Footer';
 import Hero from './components/HeroSection/Hero';
 import { NavBar } from './components/NavBar/NavBar';
 function App() {
@@ -5,6 +7,8 @@ function App() {
      <div className='container'>
         <NavBar/>
         <Hero/>
+        <Courses/>
+        <Footer/>
      </div>
   );
 }
