@@ -4,9 +4,9 @@ import "./Hero.css"
 const Hero = () => {
    return (
        <div id="Hero" className="hero-container">
-           <p>
+           <h1>
              We bring Customer for your brands<br/> and Products using Artifical <br/>Intelligence
-           </p>
+           </h1>
            <a className="contact-btn">
               Contact
            </a>
