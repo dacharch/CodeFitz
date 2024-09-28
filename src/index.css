@@ -6,9 +6,9 @@
 }
 
 .container{
-  height:100vh;
+  height:100%;
   width: 100%;
-  background-color: #fee2f8;
-  background-image:linear-gradient(315deg,#e7dde5,#dcf8ef);
+  background-color: #ebe8ea;
+  background-image:linear-gradient(315deg,#eee9ed,#e0e4e3);
 
 }
