@@ -1,16 +1,15 @@
 import Services from './components/Services/Services';
-import Footer from './components/Footer/Footer';
 import Hero from './components/HeroSection/Hero';
-import { NavBar } from './components/NavBar/NavBar';
-
+import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-     <div className='container'>
+     <div id="main" className='container'>
         <NavBar/>
-        <Hero/>
-        <Services/>
-        <Footer/>
+         <Hero/>
+         <Services/> 
+         <Footer/>
      </div>
   );
 }

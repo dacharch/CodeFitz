@@ -3,7 +3,7 @@ import "./NavBar.css"
 import logo from "../../images/icon.svg"
 
 
-export const NavBar = () => {
+ const NavBar = () => {
   return (
     <div className='nav-bar'>
     <div>
@@ -13,13 +13,14 @@ export const NavBar = () => {
       <div className='url-list'>
           <ul>
              <li> 
-              <a>Home</a>
+              <a href="#">Home</a>
             </li>
              <li>
-              <a>About</a>
+              <a href="#services">Services</a>
               </li>
-             <li>
-               <a>Contact</a>
+          
+            <li>
+               <a href="#footer">About</a>
             </li>
           </ul>
       </div>     
@@ -27,3 +28,5 @@ export const NavBar = () => {
     </div>
   )
 }
+
+export default NavBar ;
