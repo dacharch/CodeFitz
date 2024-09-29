@@ -31,9 +31,9 @@ const Hero = () => {
    return (   
       <>
           <div id="Hero" className="hero-container">
-           <h1>
+           <p>
               We bring Customer for your brands<br /> and Products using Artifical <br />Intelligence
-           </h1>
+           </p>
            <button className="contact-btn" onClick={handleOpen}>
               Contact
            </button>

@@ -8,13 +8,13 @@ const Courses = () => {
              <h2 className='title'> Our Services</h2>
           <div className='box-container'>
                <div className='box'>
-                   <h2>Want to Learn AI and latest tech?</h2>
+                   <p className='text-font'>Want to Learn AI and latest tech?</p>
                    <button>
                         Check Courses
                    </button>
                </div>
                <div className='box'>
-                    <h2>Want to educate underprivileged kids</h2>
+                    <p className='text-font'>Want to educate underprivileged kids</p>
                     <button>Support</button>
                </div>
           </div>
