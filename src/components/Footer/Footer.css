@@ -1,0 +1,44 @@
+.footer-container{
+    background-color:black;
+    color: #fff;
+    padding:20px ;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.icons-container{
+    display: flex;
+}
+
+.footer-left p{
+     margin-left: 20px; 
+}
+.icon{
+    border-radius: 100%;
+    height: 50px ;
+    width: 50px;
+    margin-left: 20px;
+    text-align: center;
+    padding:10px ;
+     cursor: pointer;
+    background-color: #443f3f;
+}
+
+.instagram-icon,.linkedin-icon, .facebook-icon{
+    height: 30px;
+    width:30px ;
+}
+.footer-left p{
+     font-size: 20px;
+     font-weight: bold;
+}
+.codefitz{
+     font-size: 40px;
+     font-weight: bold;
+
+}
+.contact-icon{
+     font-size: 15px;
+     color:gray ;
+}

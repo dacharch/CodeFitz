@@ -11,22 +11,25 @@ h1{
 }
 .contact-btn{
   align-items: center;
-  background-color: #fee6e3;
+  background-color: #8d3226;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color:#fff ;
   cursor: pointer;
   display: flex;
   font-family: Inter,sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   height: 48px;
   justify-content: center;
   line-height: 24px;
-  padding: 0 45px;
+  padding: 0 100px;
   position: relative;
   text-align: center;
   text-decoration: none;
   user-select: none;  
+  border:none ;
+  outline: none;
+  
 }
 
 

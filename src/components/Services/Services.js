@@ -1,11 +1,11 @@
 import React from 'react'
-import "./Courses.css"
+import "./Services.css"
 
 const Courses = () => {
   return (
     <div className='course-container'>
          <div className='sub-container'>
-             <h2 className='title'>Courses</h2>
+             <h2 className='title'> Our Services</h2>
           <div className='box-container'>
                <div className='box'>
                    <h2>Want to Learn AI and latest tech?</h2>
