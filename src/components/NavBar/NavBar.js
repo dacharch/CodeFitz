@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../images/icon.svg"
+import MenuIcon from '@mui/icons-material/Menu';
 import "./NavBar.css"
 
 
@@ -10,7 +11,7 @@ import "./NavBar.css"
     <div>
     <img  className="logo" src={logo} alt="image not found"/>
     </div>
-    
+      <MenuIcon className='burger-icon'/>
       <div className='url-list'>
           <ul>
              <li> 
