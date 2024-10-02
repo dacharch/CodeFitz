@@ -1,13 +1,13 @@
 .course-container{
      width:100% ;
-     padding:20px ;
+     padding: 20px 40px 20px 40px ;
     
 
 }
 .sub-container{
     border-radius: 10px;
     background-color: #fff;
-    height: 40rm;
+    height: 20rem;
     width:60rm ;
     text-align: center;
     padding:20px ;
@@ -61,7 +61,7 @@
 }
 
 .box:hover{
-     transform: scale(1.2);
+     transform: scale(1.1);
      
 }
 
