@@ -10,11 +10,11 @@ const Footer = () => {
          <div className='footer'>
               <div className='footer-right'>
                     <h2 className='codefitz'>Codefitz</h2>
-                    <p className='contact-icon'>Contact</p>
-                    <p className='email'>Email</p>
               </div>
               <div className='footer-left'>
-                    <p>Follow us </p>
+               <div className='follow'>
+                  <p>Follow us </p>
+               </div>
                     <div className='icons-container'>
                     <div className='icon'>
                         <FaInstagram className='instagram-icon'/>
