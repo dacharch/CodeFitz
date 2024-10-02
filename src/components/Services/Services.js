@@ -19,7 +19,6 @@ const Courses = () => {
                </div>
           </div>
              
-            
          </div>
         
     </div>

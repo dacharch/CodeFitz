@@ -26,8 +26,6 @@ const Footer = () => {
                          <FaFacebook className='facebook-icon'/>
                     </div>
                     </div>
-                    
-
               </div>
          </div>
     </div>

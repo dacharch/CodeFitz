@@ -24,10 +24,10 @@
     color:black ;
 }
 
-.burger-icon{
-    visibility: hidden;
-    
+.icons{
+    display: none;
 }
+
 
 @media  screen and (max-width:450px) {
     .nav-bar {
@@ -44,13 +44,39 @@
         width: 100%;
     }
     .url-list{
-        display: none;
+        display: none   ;
     }
-    .burger-icon{
-        visibility: visible;
-    }
-    .burger-icon{
-        margin-right: 50px;
-    }
+    
+   .icons{
+    display: block;
+   }
+   .burger-icon{
+     margin-right: 0px;
+     
+   }
+   .active{
+      display: block;
+      background-color: #fff;
+      position:absolute;
+      padding:20px 20px ;
+      text-align: center;
+      height: 100px ;
+      top:50px ;
+      right:0px ;
+
+   }
+   .active ul li  a  {
+    text-decoration: none;
+    color:black ;
+
+    
+   }
+   .active ul li{
+     list-style: none;
+   }
+  
+   
+   
+
 
 }
